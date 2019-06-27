@@ -1,0 +1,122 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="basicSize">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="basicSize.linearLayoutMain">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="basicSize.linearLayoutText">
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="basicSize.linearLayoutCommunication">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="textView.label">
+        <item name="android:minEms">@dimen/textView_label_minEms</item>
+    </style>
+
+    <style name="textView.label.name">
+        <item name="android:text">@string/text_textView_name</item>
+    </style>
+
+    <style name="textView.label.age">
+        <item name="android:text">@string/text_textView_age</item>
+    </style>
+
+    <style name="textView.label.salary">
+        <item name="android:text">@string/text_textView_salary</item>
+    </style>
+
+    <style name="textView.seekBarValue">
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">#000</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="editText.name">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:maxLength">50</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="editText.age">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:maxLength">3</item>
+        <item name="android:minEms">3</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="seeBar" parent="@style/basicSize">
+
+    </style>
+
+    <style name="button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="button.buttonPassTest">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:enabled">false</item>
+        <item name="android:text">@string/text_button_PassTest</item>
+    </style>
+
+    <style name="button.call">
+        <item name="android:text">@string/text_button_call</item>
+    </style>
+
+    <style name="button.sendEmail">
+        <item name="android:text">@string/text_button_sendEmail</item>
+    </style>
+
+    <style name="hrLineView">
+        <item name="android:layout_height">@dimen/hr_line_view_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#000</item>
+    </style>
+
+    <!--<style name="textView.RadioGroup">-->
+        <!--&lt;!&ndash;<item name="android:layout_gravity">center</item>&ndash;&gt;-->
+    <!--</style>-->
+
+    <style name="radioButton" >
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="buttonTint">#005e76</item>
+    </style>
+
+    <style name="checkBox">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="buttonTint">#009b50</item>
+    </style>
+
+</resources>

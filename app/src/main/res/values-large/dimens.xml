@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="textView_label_minEms">5</item>
+    <dimen name="hr_line_view_height">2dp</dimen>
+    <dimen name="text_size">24sp</dimen>
+</resources>

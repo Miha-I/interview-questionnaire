@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Анкета для собеседования</string>
+    <!-- Вопросы с ответами -->
+    <string name="question_1">Сколько типов данных в Java:</string>
+    <string name="answer_1_1">6</string>
+    <string name="answer_1_2">7</string>
+    <string name="answer_1_3">8</string>
+    <string name="answer_1_4">9</string>
+    <string name="question_2">Как передаются фактические параметры в метод:</string>
+    <string name="answer_2_1">по значению</string>
+    <string name="answer_2_2">по ссылке</string>
+    <string name="answer_2_3">ссылочные типы по ссылке, примитивные по значению</string>
+    <string name="answer_2_4">по указателю</string>
+    <string name="question_3">Integer a = 120;\nInteger b = 120;\nInteger c = 130;\nInteger d = 130;\nSystem.out.println(a==b);\nSystem.out.println(c==d);\n
+    В результате выполнения данного кода будет выведено:</string>
+    <string name="answer_3_1">false true</string>
+    <string name="answer_3_2">true true</string>
+    <string name="answer_3_3">true false</string>
+    <string name="answer_3_4">false false</string>
+    <string name="answer_3_5">Ошибка компиляции</string>
+    <string name="answer_3_6">Ошибка времени выполнения</string>
+    <string name="question_4">Какое ключевое слово java используется для обозначения статического метода:</string>
+    <string name="answer_4_1">public</string>
+    <string name="answer_4_2">static</string>
+    <string name="answer_4_3">main</string>
+    <string name="answer_4_4">void</string>
+    <string name="question_5">Какие ключевые слова зарезервированы в java:</string>
+    <string name="answer_5_1">value</string>
+    <string name="answer_5_2">bool</string>
+    <string name="answer_5_3">finalize</string>
+    <string name="answer_5_4">goto</string>
+	<string name="answer_5_5">main</string>
+    <!-- Чекбоксы -->
+    <string name="checkBoxString1">Опыт работы от 2 лет</string>
+    <string name="checkBoxString2">Навыки командной разработки</string>
+    <string name="checkBoxString3">Готовность к командировкам</string>
+    <!-- Текстовые поля -->
+    <string name="text_textView_name">ФИО:</string>
+    <string name="text_textView_age">Возраст:</string>
+    <string name="text_textView_salary">Уровень ЗП:</string>
+
+    <string name="text_button_PassTest">Сдать тест</string>
+
+    <string name="rightAmountPoints">Вы не набрали нужное количество балов</string>
+    <string name="notAnswerAllQuestions">Вы не ответили на все вопросы</string>
+
+    <string name="meetNotRequirementsAge">Вы не соответствуете требованиям компании по возрасту</string>
+
+    <string name="phone_number">38(123)1234567</string>
+    <string name="email_address">Silicon@Valley.com</string>
+    <string name="email_subject">Хочу работать программистом</string>
+    <string name="email_text">Возьмите на работу</string>
+    <string name="email_no_sent">Письмо не отправлено</string>
+    <string name="email_app_notFound">Не найдено приложение для отправки письма</string>
+    <string name="call_app_notFound">Не найдено приложение для звонков</string>
+    <string name="call_app_noPermission">Не достаточно прав</string>
+    <string name="text_button_call">Позвонить</string>
+    <string name="text_button_sendEmail">Отправить email</string>
+    <string name="todo">TODO</string>
+</resources>

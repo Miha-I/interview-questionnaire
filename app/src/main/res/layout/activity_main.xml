@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/basicSize" >
+
+    <LinearLayout
+        style="@style/basicSize.linearLayoutMain">
+
+        <!-- ФИО -->
+        <LinearLayout
+            style="@style/basicSize.linearLayoutText">
+            <TextView
+                style="@style/textView.label.name"
+                android:labelFor="@id/id_editText_name" />
+            <EditText
+                android:id="@id/id_editText_name"
+                style="@style/editText.name" />
+        </LinearLayout>
+
+        <!-- Возраст -->
+        <LinearLayout
+            style="@style/basicSize.linearLayoutText">
+            <TextView
+                style="@style/textView.label.age"
+                android:labelFor="@id/id_editText_age" />
+            <EditText
+                android:id="@id/id_editText_age"
+                style="@style/editText.age" />
+        </LinearLayout>
+
+        <!-- Зарплата -->
+        <TextView
+            android:id="@id/id_textView_seekBar"
+            style="@style/textView.seekBarValue" />
+
+        <LinearLayout
+            style="@style/basicSize">
+            <TextView
+                style="@style/textView.label.salary"
+                android:labelFor="@id/id_seekBar_salary"/>
+            <SeekBar
+                android:id="@id/id_seekBar_salary"
+                style="@style/seeBar" />
+        </LinearLayout>
+
+        <!-- Вопросы -->
+        <LinearLayout
+            android:id="@id/id_container_questions"
+            style="@style/basicSize.linearLayoutMain"/>
+
+        <!-- Кнопка сдать тест -->
+        <Button
+            android:id="@id/id_button_passTest"
+            style="@style/button.buttonPassTest"
+            android:onClick="buttonPassTestClick"/>
+
+    </LinearLayout>
+
+</ScrollView>

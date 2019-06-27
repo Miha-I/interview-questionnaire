@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="maximumWageSeekBar">1800</integer>
+    <integer name="minimumWageSeekBar">800</integer>
+    <integer name="stepWageSeekBar">100</integer>
+    <integer name="requiredNumberPoints">10</integer>
+    <integer name="minAge">21</integer>
+    <integer name="maxAge">40</integer>
+</resources>

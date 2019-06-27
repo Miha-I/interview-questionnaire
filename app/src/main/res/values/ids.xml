@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="id_editText_name" />
+    <item type="id" name="id_textView_name" />
+    <item type="id" name="id_editText_age" />
+    <item type="id" name="id_textView_age" />
+    <item type="id" name="id_editText_salary" />
+    <item type="id" name="id_textView_seekBar"/>
+    <item type="id" name="id_seekBar_salary"/>
+    <item type="id" name="id_button_passTest"/>
+    <item type="id" name="id_container_questions"/>
+
+    <item type="id" name="id_btn_call"/>
+    <item type="id" name="id_btn_sendEmail"/>
+
+    <!--<item type="id" name="id_radiogroup_1"/>-->
+    <!--<item type="id" name="id_radiogroup_2"/>-->
+</resources>

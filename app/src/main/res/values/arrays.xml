@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 1 вопрос с ответами -->
+    <string-array name="question1">
+        <item>@string/question_1</item>
+        <item>@string/answer_1_1</item>
+        <item>@string/answer_1_2</item>
+        <item>@string/answer_1_3</item>
+        <item>@string/answer_1_4</item>
+    </string-array>
+    <!-- 2 вопрос с ответами -->
+    <string-array name="question2">
+        <item>@string/question_2</item>
+        <item>@string/answer_2_1</item>
+        <item>@string/answer_2_2</item>
+        <item>@string/answer_2_3</item>
+        <item>@string/answer_2_4</item>
+    </string-array>
+    <!-- 3 вопрос с ответами -->
+    <string-array name="question3">
+        <item>@string/question_3</item>
+        <item>@string/answer_3_1</item>
+        <item>@string/answer_3_2</item>
+        <item>@string/answer_3_3</item>
+        <item>@string/answer_3_4</item>
+        <item>@string/answer_3_5</item>
+        <item>@string/answer_3_6</item>
+    </string-array>
+    <!-- 4 вопрос с ответами -->
+    <string-array name="question4">
+        <item>@string/question_4</item>
+        <item>@string/answer_4_1</item>
+        <item>@string/answer_4_2</item>
+        <item>@string/answer_4_3</item>
+        <item>@string/answer_4_4</item>
+    </string-array>
+    <!-- 5 вопрос с ответами -->
+    <string-array name="question5">
+        <item>@string/question_5</item>
+        <item>@string/answer_5_1</item>
+        <item>@string/answer_5_2</item>
+        <item>@string/answer_5_3</item>
+        <item>@string/answer_5_4</item>
+        <item>@string/answer_5_5</item>
+    </string-array>
+    <!-- вопросы выводимые на экран -->
+    <array name="questions">
+        <item>@array/question1</item>
+        <item>@array/question2</item>
+        <item>@array/question3</item>
+        <item>@array/question4</item>
+        <item>@array/question5</item>
+    </array>
+    <!-- правильные ответы -->
+    <integer-array name="rightAnswers">
+        <item>3</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+        <item>4</item>
+    </integer-array>
+    <!-- очки за правильные ответы -->
+    <integer-array name="pointsPerAnswers">
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+    </integer-array>
+    <!-- чекбоксы -->
+    <string-array name="checkBoxStrings">
+        <item>@string/checkBoxString1</item>
+        <item>@string/checkBoxString2</item>
+        <item>@string/checkBoxString3</item>
+    </string-array>
+    <!-- очки за чекбоксы -->
+    <integer-array name="pointsPerCheckbox">
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+
+</resources>
